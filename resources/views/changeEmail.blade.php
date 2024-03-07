@@ -10,11 +10,19 @@
     <h1>Đổi Email Tài Khoản</h1>
     <form method="POST" action="/generate-change-email-otp">
         @csrf
+        @if (isset($message))
+            <span>{{ $message }}</span> <br/><br/>
+        @endif
         <label for="newEmail">Nhập Email Mới:</label>
+        
         <input type="email" id="newEmail" name="newEmail" value="{{ old('newEmail') }}" required>
+        
         <button id="sendOTPButton">Gửi OTP</button>
+
+        <br/><br/>
+        <a href="/">Back</a>
     </form>
-    
+
     <script>
         let timer;
 

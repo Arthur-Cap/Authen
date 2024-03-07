@@ -362,7 +362,9 @@
               </div>
             <div class = login-box__foot>
                 <button class="login-but"> <span>Login</span></button>
-                <span class = forgot >Forgot your password or user name ? Ask Jesus !</span>
+                <a href="register" class = forgot >Dont have account ? </a>
+
+                <a href="forgot-password" class = forgot >Forgot your password or user name ? </a>
             </div>
         </form>
 

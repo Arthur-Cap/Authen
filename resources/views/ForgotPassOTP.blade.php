@@ -26,6 +26,8 @@
         @endif
 
         <button id="confirmButton" name="confirmButton" >Xác Nhận</button>
+        <br/><br/>
+        <a href="/login">Back</a>
     </form>
 </body>
 

@@ -16,6 +16,8 @@
             <span>{{ $message }}</span>
         @endif
         <button id="sendOTPButton">Xác Nhận</button>
+        <br/><br/>
+        <a href="/">Back</a>
     </form>
     
 </body>
